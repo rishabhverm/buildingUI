@@ -1,0 +1,74 @@
+<div class="container ">
+    <h1 class="mb-3"> Add Building configartions</h1>
+    <div class="row">
+        <div class="col-6">
+
+<form>
+    <div class="form-group">
+      <label for="name">id:</label>
+      <input type="number" class="form-control" id="id" [(ngModel)]="building.id" name="id">
+    </div>
+
+    <div class="form-group">
+      <label for="name_en">name_en:</label>
+      <input type="text" class="form-control" id="name_en" [(ngModel)]="building.name_en" name="name_en">
+    </div>
+
+    <div class="form-group">
+      <label for="name_es">name_es:</label>
+      <input type="text" class="form-control" id="name_es" [(ngModel)]="building.name_es" name="name_es">
+    </div>
+
+    <div class="form-group">
+      <label for="bedroom">bedroom:</label>
+      <input type="number" class="form-control" id="bedroom" [(ngModel)]="building.bedroom" name="bedroom">
+    </div>
+
+    <div class="form-group">
+      <label for="bathroom">bathroom:</label>
+      <input type="number" class="form-control" id="bathroom" [(ngModel)]="building.bathroom" name="bathroom">
+    </div>
+
+    <div class="form-group">
+      <label for="half_bathroom">half_bathroom:</label>
+      <input type="number" class="form-control" id="half_bathroom" [(ngModel)]="building.half_bathroom" name="half_bathroom">
+    </div>
+
+    <div class="form-group">
+      <label for="created_by">created_by:</label>
+      <input type="number" class="form-control" id="created_by" [(ngModel)]="building.created_by" name="created_by">
+    </div>
+
+    <div class="form-group">
+      <label for="status">status:</label>
+      <input type="number" class="form-control" id="status" [(ngModel)]="building.status" name="status">
+    </div>
+
+
+    <div class="form-group">
+      <label for="created_at">created_at:</label>
+      <input type="Datetime" class="form-control" id="created_at" [(ngModel)]="building.created_at" name="created_at">
+    </div>
+
+
+    <div class="form-group">
+      <label for="updated_at">updated_at:</label>
+      <input type="Datetime" class="form-control" id="updated_at" [(ngModel)]="building.updated_at" name="updated_at">
+    </div>
+
+    <div class="form-group">
+      <label for="name">name:</label>
+      <input type="number" class="form-control" id="name" [(ngModel)]="building.name" name="name">
+    </div>
+
+    <div class="form-group">
+      <label for="is_selected">is_selected:</label>
+      <input type="number" class="form-control" id="is_selected" [(ngModel)]="building.is_selected" name="is_selected">
+    </div>
+
+    <button type="button" class="btn btn-primary" (click)="addbuilding ()">Add Building</button>
+  </form>
+</div>
+</div>
+</div>
+  
